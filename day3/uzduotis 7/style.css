@@ -1,0 +1,54 @@
+* {
+  /*border: 1px solid black;*/
+}
+
+/*Spalvinam background ********************************************/
+nav a {
+  text-decoration: none;
+  color: white;
+  border: 1px solid black;
+  margin-left: 10px;
+  padding-top: 3px;
+  padding-bottom: 4px;
+}
+nav a h3 {
+  margin: 0;
+}
+
+
+header {
+  background-color: rgb(109, 215, 100);
+}
+
+nav {
+  background-color: rgb(67, 40, 144);
+  color: white;
+}
+
+aside {
+  background-color: rgb(194, 195, 149);
+}
+
+footer {
+  background-color: rgb(61, 61, 62)
+}
+
+
+.container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+header, nav {
+  flex: 1 100%;
+}
+
+.two {
+  margin: auto;
+  flex-basis: 45%;
+}
+
+footer {
+  flex: 1 100%;
+}
