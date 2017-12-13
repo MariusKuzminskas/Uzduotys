@@ -2,37 +2,76 @@
   /*border: 1px solid black;*/
 }
 
-/*Spalvinam background ********************************************/
+#mainContainer {
+  background-image: url("writing.jpg");
+  /*background-repeat: no-repeat;*/
+  background-attachment: fixed;
+}
+
+
+
+/*Navigacija ********************************************/
 nav a {
+  background-color: rgb(28, 36, 61);
   text-decoration: none;
   color: white;
   border: 1px solid black;
   margin-left: 10px;
+  padding: 3px;
   padding-top: 3px;
   padding-bottom: 4px;
+  position: relative;
+}
+
+nav form {
+  align-self: center;
+  position: absolute;
+  right: 15px;
 }
 nav a h3 {
   margin: 0;
+  text-transform: uppercase;
 }
-
-
-header {
-  background-color: rgb(109, 215, 100);
-}
-
 nav {
   background-color: rgb(67, 40, 144);
   color: white;
 }
 
-aside {
-  background-color: rgb(194, 195, 149);
+/*HEADER *****************************************/
+header {
+  background-color: rgb(109, 215, 100);
+  text-align: center;
+  font-family: cursive;
 }
 
+/*ARTICLE *****************************************/
+article {
+  background-color: rgba(255, 255, 255, 0.2);
+  /*background-color: rgb(255, 255, 255)*/
+  /*opacity: .2;*/
+}
+article > * {
+  opacity: 1;
+  color: black;
+}
+/*ASIDE ********************************************/
+aside {
+  background-color: rgb(194, 195, 149);
+  padding: 50px;
+}
+aside h3 {
+  text-transform: uppercase;
+  text-align: left;
+}
+
+/*FOOTER ***************************************************/
 footer {
   background-color: rgb(61, 61, 62)
 }
 
+
+
+/*LAYOUT BASED ON FLEXBOX ********************/
 
 .container {
   display: flex;
@@ -46,7 +85,11 @@ header, nav {
 
 .two {
   margin: auto;
-  flex-basis: 45%;
+  /*flex-basis: 45%;*/
+}
+
+article {
+  flex-basis: 70%;
 }
 
 footer {
