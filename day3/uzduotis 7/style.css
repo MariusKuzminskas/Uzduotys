@@ -6,6 +6,7 @@
   background-image: url("writing.jpg");
   /*background-repeat: no-repeat;*/
   background-attachment: fixed;
+  background-size: 100%;
 }
 
 
@@ -66,7 +67,9 @@ aside h3 {
 
 /*FOOTER ***************************************************/
 footer {
-  background-color: rgb(61, 61, 62)
+  background-color: rgba(61, 61, 62, 0.8);
+  text-align: center;
+  color: white;
 }
 
 
