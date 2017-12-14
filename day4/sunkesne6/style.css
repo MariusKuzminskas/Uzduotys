@@ -14,20 +14,21 @@ div {
 /*Spalvinam ********************************/
 header {
   background-color: rgb(60, 87, 136);
+  height: 10vh;
 }
 nav {
   background-color: rgb(35, 41, 51);
-  height: 100vh;
+  height: 80vh;
   color: white;
 }
 article {
   background-color: rgb(65, 113, 90);
-  height: 200px;
+  height: 70vh;
 }
 aside {
   background-color: rgb(236, 177, 99);
 }
 footer {
   background-color: rgb(93, 96, 99);
-
+  height: 10vh;
 }
