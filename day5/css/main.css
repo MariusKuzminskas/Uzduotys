@@ -3,9 +3,6 @@
 }
 body     {
     background-image: url("../img/concert.jpg");
-    /* -webkit-background-size: 100%; */
-    /* background-size: 100%; */
-    /* background-position: center; */
     -webkit-background-size: cover;
     background-size: cover;
     height: 100vh;
@@ -17,25 +14,7 @@ body     {
     text-transform: uppercase;
     font-size: 2em;
     color: white;
-
 }
-
-.container, .container-fluid{
-    height: 100vh;
-    /* background-color: white; */
-}
-
-.centras  {
-    height: 40%;
-    width: 60%;
-    align-items: stretch;
-}
-
-.centras:first-child {
-    color: white;
-    /* font-weight: bold; */
-}
-
 .linija {
     background-color: white;
     width: 40%;
@@ -43,25 +22,25 @@ body     {
     margin-bottom: 20px;
     margin-top: 10px;
 }
-
-.absuliutas {
-    position: absolute;
-    width: 100%;
-
-}
-
 .btn-sonas {
     padding: 5px 14px 14px;
     font-size: 3rem;
     /* font-family: cursive; */
     /* padding-top: 0; */
 }
-
-
 /* LOGO start ********************************************  */
 .logutis {
     height: 100px;
     width: 100px;
-}
+}/* LOGO start ********************************************  */
 
-/* LOGO start ********************************************  */
+
+.pirma {
+    height: 20vh;
+}
+.antra {
+    height: 60vh;
+}
+.trecia {
+    height: 20vh;
+}
