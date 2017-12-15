@@ -1,5 +1,5 @@
 * {
-    /* border: 1px solid #000; */
+    border: 1px solid #000;
 }
 body     {
     background-image: url("../img/concert.jpg");
@@ -20,7 +20,7 @@ body     {
 
 }
 
-.container{
+.container, .container-fluid{
     height: 100vh;
     /* background-color: white; */
 }
@@ -43,3 +43,25 @@ body     {
     margin-bottom: 20px;
     margin-top: 10px;
 }
+
+.absuliutas {
+    position: absolute;
+    width: 100%;
+
+}
+
+.btn-sonas {
+    padding: 5px 14px 14px;
+    font-size: 3rem;
+    /* font-family: cursive; */
+    /* padding-top: 0; */
+}
+
+
+/* LOGO start ********************************************  */
+.logutis {
+    height: 100px;
+    width: 100px;
+}
+
+/* LOGO start ********************************************  */
